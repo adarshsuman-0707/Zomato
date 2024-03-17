@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="icon" type="svg" href="	https://seekvectors.com/storage/images/Zomato.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="zomatos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <section id="mainpage">
+        <img id="zomato" src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" />
+        <div class="conatiner">
+            <div id="navbar">
+                <div><span id="app">Get the app</span></div>
+                <div id="links">
+                    <a href="#" class="navw">Investor Relations </a>
+                    <a href="#" class="navw">Add Restaurant </a>
+                    <a href="#" class="navw" id="logins"> Login</a>
+                    <a href="#" class="navw" id="sign"> Signup</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <h1 id="logos">zomato</h1>
+        </div>
+
+        <div class="title titles">
+            <h3 class="title" id="element"></h3>
+
+
+        </div>
+
+        <div id="search">
+            <div id="search1">
+                <i class="fa-solid fa-location-dot fa-beat-fade" style="color: #db380f;"></i>
+                <input id="searchin" type="text" placeholder="Block B, Jaypee Greens">
+                <i class="fa-solid fa-magnifying-glass fa-shake"></i>
+                <input id="searchin" type="text" placeholder="Search for restaurant ,Cuisine or a dish" />
+            </div>
+        </div>
+    </section>
+    <!-- signup page -->
+
+    <div id="formgroup">
+        <div id="foems">
+            <span>Signup</span>
+            <span><i class="fa fa-times" id="cross" aria-hidden="true"></i></Span>
+        </div>
+        <div class="inputifield">
+            <input type="text" id="username" class="input-box">
+            <label class="placeholder-text">Username </label>
+
+            <input type="text" class="input-box" id="emails">
+            <label class="placeholder-text1">Email </label>
+
+
+            <p class="check"> <input type="checkbox" name="" id="checkbox">
+                I agree to Zomato's <span id="change">Terms of Service ,Privacy Policy </span>and <span
+                    id="change">Content Policies</span>
+            </p>
+            <button id="create"> Create account</button>
+            or
+            <button id="creates"><svg id="googlelogo" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 48 48" class="LgbsSe-Bz112c">
+                    <g>
+                        <path fill="#EA4335"
+                            d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                        </path>
+                        <path fill="#4285F4"
+                            d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                        </path>
+                        <path fill="#FBBC05"
+                            d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                        </path>
+                        <path fill="#34A853"
+                            d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                        </path>
+                        <path fill="none" d="M0 0h48v48H0z"></path>
+                    </g>
+                </svg> Sign in with Google</button>
+
+            <hr>
+            <p id="lastup">Already have an account? <span id="change"><a href="#" id="login">Log in</a></span></p>
+        </div>
+    </div>
+
+
+    <!-- login up page -->
+    <div id="formgroup1">
+        <div id="foems">
+            <span>Log in</span>
+            <span><i class="fa fa-times" aria-hidden="true" id="crosse"></i></Span>
+        </div>
+        <div class="inputifield">
+            <input type="number" class="input-box" id="Phone">
+            <label class="placeholder-text2">Phone</label>
+            <button id="onetime"> Send one time password</button>
+            or
+
+            <button id="creates"><i class="fa-solid fa-envelope" style="color: #dd0808;"></i> Continue with Email
+            </button>
+
+
+            <button id="creates"><svg id="googlelogo" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 48 48" class="LgbsSe-Bz112c">
+                    <g>
+                        <path fill="#EA4335"
+                            d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                        </path>
+                        <path fill="#4285F4"
+                            d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                        </path>
+                        <path fill="#FBBC05"
+                            d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                        </path>
+                        <path fill="#34A853"
+                            d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                        </path>
+                        <path fill="none" d="M0 0h48v48H0z"></path>
+                    </g>
+                </svg> Sign in with Google</button>
+
+            <hr>
+            <p id="lastup">New to Zomato? <span id="change"><a href="#" style="color:red; text-decoration: none;"
+                        id="account">Create Account</a></span></p>
+        </div>
+    </div>
+
+    <section class="cardsection">
+
+        <div class="mainsection">
+            <a href="#">
+                <div class="card">
+                    <img id="cardmanage" src="pic2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="desc">Order Online</p>
+                        <p class="card-text">Stay home and order to your doorstep</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img id="cardmanage" src="pic3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="desc">
+                            Dinning
+                        </p>
+                        <p class="card-text">View the city's favourite dinning venues</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img id="cardmanage" src="pic1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="desc"> Nightlife and clubs</p>
+                        <p class="card-text">Explore the city stop nightlife outlets</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="collection">
+        <div id="innercontainer">
+            <h2>Collections</h2>
+            <span class="coll">
+                <p id="size">Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on
+                    trends</p>
+                <span id="change" class="sizes"> All collections in Delhi NCR</span>
+            </span>
+        </div>
+    </section>
+
+    <section class="images">
+        <div id="imagess">
+            <div class="card text-bg-dark">
+                <img src="pic2.jpeg" class="handle1" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Let's Brunch Here</h5>
+                    <p class="card-text" id="changecard"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card text-bg-dark">
+                <img src="pic3.jpeg" class="handle1" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">one of a Kind place</h5>
+                    <p class="card-text" id="changecard"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card text-bg-dark">
+                <img src="pic2.jpeg" class="handle1" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Trending Restaurant</h5>
+                    <p class="card-text" id="changecard"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card text-bg-dark ">
+                <img src="pic2.jpeg" class="handle1" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Show what news ?</h5>
+                    <p class="card-text" id="changecard"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactbox">
+
+        <div id="contact">
+            <div id="picss"><img id="picss"
+                    src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png" /></div>
+            <div id="information">
+                <h2>Get the Zomato app</h2>
+                <p> We will send a link open it on your phone to download the app</p>
+                <label for="emailss" style="cursor: pointer;">
+                    <input type="radio" name="Email" id="emailss" value="email"> Email</label>
+                <label for="phones" style="cursor: pointer;"> <input type="radio" name="Email" id="phones"
+                        value="Phone"> Phone </label>
+                <br>
+                <!-- javascript scripting here -->
+                <span id="inp">
+                    <input type="number" name="number" id="behaviour" placeholder="Phone" />
+
+                    <br>
+                    <button id="infobtn" style="background-color: red; color:azure;">Share App link</button>
+                </span>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="infors1">
+        <div class="para">
+            <span class="explore">Explore near me </span>
+
+<div class="confor">
+        <!-- <details>
+                <summary id="calls"> Popular cuisines near me</summary>
+                <br>
+                <p id="expand">Bakery food near me -Beverages food near me -Biryani Bakeries near meBars near meBeverage
+                    Shops near meBhojanalya near meCafés near meCasual Dining near meClubs near meCocktail Bars near
+                    meConfectioneries near meDessert Parlors near meDhabas near meFine Dining near meFood Courts near
+                    meFood Trucks near meIrani Cafes near meKiosks near meLounges near meMeat Shops near
+                    meMicrobreweries near mePaan Shop near mePubs near meQuick Bites near meSweet Shops near me</p>
+            </details>
+            <details>
+                <summary id="calls">Popular restaurant types near me</summary>
+                <br>
+                <p id="expand">Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near meCasual
+                    Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert Parlors near meDhabas
+                    near meFine Dining near meFood Courts near meFood Trucks near meIrani Cafes near meKiosks near
+                    meLounges near meMeat Shops near meMicrobreweries near mePaan Shop near mePubs near meQuick Bites
+                    near meSweet Shops near me</p>
+            </details>
+            <details>
+                <summary id="calls"> Top Restaurant Chains</summary>
+                <br>
+                <p id="expand">Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                    international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+            <details>
+                <summary id="calls"> Client we deliever to</summary>
+                <br>
+                <p id="expand">Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                    international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details> -->
+
+        <div id="grew">
+            <div id="jque">
+                <div id="maintain">Popular restaurant types near me</div>
+                <div id="works"> <i id="increase" class="fa-regular fa-greater-than fa-fade"></i></div>
+            </div>
+            <div id="exss">Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near meCasual
+                    Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert Parlors near meDhabas
+                    near meFine Dining near meFood Courts near meFood Trucks near meIrani Cafes near meKiosks near
+                    meLounges near meMeat Shops near meMicrobreweries near mePaan Shop near mePubs near meQuick Bites
+                    near meSweet Shops near me.</div>
+            </div>
+        </div>
+        <div id="grew1">
+            <div id="jque">
+                <div id="maintain">Popular cuisines near me</div>
+                <div id="works"> <i id="increase1" class="fa-regular fa-greater-than fa-fade"></i></div>
+            </div>
+            <div id="exss1">Bakery food near me -Beverages food near me -Biryani Bakeries near meBars near meBeverage
+                Shops near meBhojanalya near meCafés near meCasual Dining near meClubs near meCocktail Bars near
+                meConfectioneries near meDessert Parlors near meDhabas near meFine Dining near meFood Courts near
+                meFood Trucks near meIrani Cafes near meKiosks near meLounges near meMeat Shops near
+                meMicrobreweries near mePaan Shop near mePubs near meQuick Bites near meSweet Shops near me</div>
+            </div>
+        </div>
+ 
+        </div>
+
+    </section>
+
+    <script>
+$(document).ready(function () {
+            $("#increase1").click(function () {
+
+                $("#exss1").slideToggle("slow");
+            });
+        });
+        let cs1 = document.getElementById("increase1")
+        var num = 0;
+        cs1.addEventListener('click', () => {
+
+
+            if (num == 0) {
+                cs1.classList.add("moves")
+                num = 1;
+            }
+            else {
+
+                cs1.classList.remove("moves");
+                num = 0;
+            }
+        })
+
+        $(document).ready(function () {
+            $("#increase").click(function () {
+
+                $("#exss").slideToggle("slow");
+            });
+        });
+
+        let cs = document.getElementById("increase")
+        var num1 = 0;
+        cs.addEventListener('click', () => {
+  
+
+            if (num1 == 0) {
+                cs.classList.add("moves")
+                num1 = 1;
+            }
+            else {
+
+                cs.classList.remove("moves");
+                num1 = 0;
+            }
+        })
+    </script>
+
+    <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
+                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                            <p>Don’t miss any updates of our new templates and extensions.!</p>
+                            <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true"
+                                _lpchecked="1">
+                                <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                                <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                                <p class="mchimp-errmessage" style="display: none;"></p>
+                                <p class="mchimp-sucmessage" style="display: none;"></p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
+                            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18"> ZOMAVERSE</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="#">Zomato</a></li>
+                                <li><a href="#">Blinkit</a></li>
+                                <li><a href="#">Feeding India</a></li>
+                                <li><a href="#">Hyperpure</a></li>
+                                <li><a href="#">Zomaland</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
+                            style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Term &amp; conditions</a></li>
+                                <li><a href="#">Reporting</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Support Policy</a></li>
+                                <li><a href="#">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
+                            style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                            <div class="f_social_icon">
+                                <a href="#" class="fab fa-facebook"></a>
+                                <a href="#" class="fab fa-twitter"></a>
+                                <a href="#" class="fab fa-linkedin"></a>
+                                <a href="#" class="fab fa-pinterest"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bg">
+                <div class="footer_bg_one"></div>
+                <div class="footer_bg_two"></div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="zomato.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.lav{
+    margin-top: -35px;
+    /* top:0; */
+    background-color: white;
+    margin-left:10px;
+    position: absolute;
+}
+#field{
+    height:40px;
+}
+#field:focus +.lav{
+    transform: translateY(-35px);
+    transition: 0.5s;
+}
+#field:focus{
+    border-bottom: 1px solid black;
+}
+    </style>  
+</head>
+<body>
+    <input id="field" type="text"><br>
+    <label class="lav" for="field"> Username</label>
+</body>
+</html>
